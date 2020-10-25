@@ -23,7 +23,7 @@
         android:text="@string/task"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/rating"
+        app:layout_constraintEnd_toStartOf="@+id/priority"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/thumbnail"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,13 +34,13 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/nav_app_bar_navigate_up_description"
-        app:layout_constraintEnd_toStartOf="@+id/rating"
+        app:layout_constraintEnd_toStartOf="@+id/priority"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/thumbnail"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <TextView
-        android:id="@+id/rating"
+        android:id="@+id/priority"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"

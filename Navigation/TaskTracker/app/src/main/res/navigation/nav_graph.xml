@@ -8,7 +8,12 @@
     <dialog
         android:id="@+id/tasksEntryDialogFragment"
         android:name="apps.nocturnuslabs.tasktracker.TasksEntryDialogFragment"
-        android:label="TasksEntryDialogFragment" />
+        android:label="TasksEntryDialogFragment">
+        <argument
+            android:name="itemId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </dialog>
 
     <fragment
         android:id="@+id/tasksList"
