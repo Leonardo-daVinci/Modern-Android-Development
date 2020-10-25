@@ -29,6 +29,13 @@ class TasksListAdapter(private var onEdit: (Tasks) -> Unit, private var onDelete
             description.text = task.description
             priority.text = task.priority.toString()
             thumbnail.setImageResource(R.drawable.tasks_icon)
+            this.task = task
+            binding.deleteButton.setOnClickListener {
+                onDelete(task)
+            }
+            binding.root.setOnClickListener {
+                onEdit(task)
+            }
         }
 
     }
