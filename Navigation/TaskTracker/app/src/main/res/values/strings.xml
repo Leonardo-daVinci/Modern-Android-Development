@@ -18,4 +18,7 @@
     <string name="delete">Delete</string>
     <string name="TaskPicture">Task Picture</string>
     <string name="add_tasks_button">Add Tasks button</string>
+    <string name="new_task">New Task</string>
+    <string name="create_new_task">Create new task</string>
+    <string name="disabled_message">New Task Shortcut Disabled</string>
 </resources>
