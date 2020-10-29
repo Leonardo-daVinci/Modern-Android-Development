@@ -1,4 +1,4 @@
-package apps.nocturnuslabs.imagesearchapp
+package apps.nocturnuslabs.imagesearchapp.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
